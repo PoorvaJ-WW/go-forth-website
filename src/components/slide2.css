@@ -1,0 +1,70 @@
+.slide2-slide {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center children horizontally */
+  align-items: center; /* Center children vertically */
+  position: relative; /* Needed to position text over the image */
+  height: 500px; /* Fixed height for each slide, adjust as necessary */
+}
+
+.slide2-image-container {
+  width: 100%; /* Full width of the slide */
+  height: 100%; /* Full height of the slide */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.slide2-image {
+  width: 100%; /* Full width to fill the container */
+  height: auto; /* Auto height to maintain aspect ratio */
+  max-height: 100%; /* Ensure the image is not taller than the container */
+  object-fit: contain; /* Ensure the image fits within the container */
+}
+
+/* Text container with absolute positioning to overlay on the image */
+.slide2-max-wdith {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); /* For better readability of the text */
+  padding: 20px; /* Padding around the text */
+  color: var(--dl-color-scheme-white);
+  z-index: 2; /* Ensure the text is above the image */
+}
+
+/* Background colors for different slides */
+.slide2-root-class-name {
+  background-color: #ff9b1d;
+}
+.slide2-root-class-name1 {
+  background-color: #15bd19;
+}
+.slide2-root-class-name2 {
+  background-color: #fb275a;
+}
+.slide2-root-class-name3 {
+  background-color: #0975f1;
+}
+.slide2-root-class-name4 {
+  background-color: #0d1f3a;
+}
+
+/* Style for slide text */
+.slide2-text {
+  color: var(--dl-color-scheme-white);
+}
+
+.slide2-text {
+  color: var(--dl-color-scheme-white);
+  font-size: 16px; /* Adjust the font size as needed */
+  /* Other styles... */
+}
+
+.slide2-text h1 {
+  font-size: 24px; /* Larger text for headings */
+}
+
+.slide2-text p {
+  font-size: 14px; /* Smaller text for paragraphs */
+}

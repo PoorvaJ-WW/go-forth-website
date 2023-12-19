@@ -1,0 +1,27 @@
+.slide1-slide {
+  align-items: center;
+  justify-content: center;
+}
+.slide1-max-wdith {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.slide1-text {
+  color: var(--dl-color-scheme-white);
+}
+.slide1-root-class-name {
+  background-color: #ff9b1d;
+}
+.slide1-root-class-name1 {
+  background-color: #15bd19;
+}
+.slide1-root-class-name2 {
+  background-color: #FB275A;
+}
+.slide1-root-class-name3 {
+  background-color: #0975F1;
+}
+.slide1-root-class-name4 {
+  background-color: #0D1F3A;
+}
