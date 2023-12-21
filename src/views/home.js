@@ -154,7 +154,7 @@ const Home = (props) => {
               <div className="home-container4">
                 <span className="home-text17">RETREAT FACILITIES</span>
                 <span className="home-text18">
-                  During the two-day retreat, each couple will have a private
+                  During the three-day retreat, each couple will have a private
                   room with an attached bathroom. All meals and tea are
                   included. Daily Mass, Adoration, and Confession sessions are
                   scheduled for spiritual growth.
@@ -257,7 +257,7 @@ const Home = (props) => {
           <footer className="home-footer">
             <img
               alt="logo"
-              src="https://res.cloudinary.com/dxdpahm3o/image/upload/v1702980530/Negative_Logo_landscape_kbehml.svg"
+              src="https://res.cloudinary.com/dxdpahm3o/image/upload/v1703143610/Negative_Logo_landscape_no_logo_but_text_jjtagx.svg"
               className="home-image2"
             />
             <span className="home-text27">

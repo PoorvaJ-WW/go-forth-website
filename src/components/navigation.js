@@ -75,7 +75,7 @@ const Navigation = (props) => {
 Navigation.defaultProps = {
   button1: "register",
   image_src:
-    "https://res.cloudinary.com/dxdpahm3o/image/upload/v1702980530/Positive_Logo_landscape_gn0vqj.svg",
+    "https://res.cloudinary.com/dxdpahm3o/image/upload/v1703143610/Positive_Logo_landscape_no_logo_but_text_lc4lxk.svg",
   button: "register",
   image_alt1: "image",
   image_src1: "/logo-white-1500h.png",
