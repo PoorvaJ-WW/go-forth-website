@@ -17,7 +17,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Couples' Retreat: GoForth Ministries</title>
+        <title>Free in Christ Retreat: GoForth Ministries</title>
         <meta property="og:title" content="Couples' Retreat Page" />
       </Helmet>
       <Navigation></Navigation>
@@ -27,7 +27,7 @@ const Home = (props) => {
           <div className="home-max-width max-content-container">
             <div className="home-content-container">
               <h1 className="home-text">
-                <span className="home-text01 Heading1">renewed:</span>
+                <span className="home-text01 Heading1">free in Christ:</span>
                 <span className="Heading1">
                   <span
                     dangerouslySetInnerHTML={{
@@ -35,12 +35,9 @@ const Home = (props) => {
                     }}
                   />
                 </span>
-                <span className="home-text03">couples&apos; retreat</span>
+                <span className="home-text03">2-day retreat</span>
               </h1>
-              <span className="home-text04">
-                renew, restore and enrich your marriage through an encounter
-                with christ
-              </span>
+              <span className="home-text04">10 Feb - 11 Feb 2024</span>
               <div className="home-btns-container">
                 <a
                   href="#register"
@@ -58,7 +55,7 @@ const Home = (props) => {
             </div>
             <div className="home-image-container">
               <img
-                src="https://res.cloudinary.com/dxdpahm3o/image/upload/v1702969621/couple-retreat_hlh0el.jpg" // Your image URL here
+                src="https://res.cloudinary.com/dxdpahm3o/image/upload/v1706357023/Free-in-christ_sacsnr.png"
                 alt="Couples' Retreat"
                 className="home-hero-image"
               />
@@ -66,37 +63,37 @@ const Home = (props) => {
           </div>
           <div className="home-blue-background"></div>
         </div>
+
         <div id="about" className="home-about section-container">
           <div className="home-features">
-            <h1 className="home-text05">who should attend this retreat?</h1>
+            <h1 className="home-text05">
+              Why should I attend the Free in Christ retreat?
+            </h1>
             <div className="home-container1">
               <FeatureCard2
-                rootClassName="rootClassName"
-                title="Understand God's Plan for Your Married Life"
-                description="Explore the divine purpose for your union and learn how to align your marriage with the greater plan that God has laid out for both of you."
+                title="Healing Power of the Gospel"
+                description="Discover the restorative power of Jesus' teachings and how they can heal the brokenhearted and bind up their wounds."
                 icon={<ChurchIcon />}
               />
               <FeatureCard2
-                rootClassName="rootClassName3"
-                title="Improve Your Love Relationship"
-                description="Enhance your bond by deepening your self-awareness and addressing aspects of your life and relationship that require nurturing and improvement."
+                title="Freedom from the Past"
+                description="Learn how to overcome past traumas and experiences that can hold you back, and embrace the freedom that Jesus offers."
                 icon={<LoveIcon />}
               />
               <FeatureCard2
-                rootClassName="rootClassName2"
-                title="Reflect on Your Relationship with God"
-                description="Dedicate time to contemplate your spiritual connection with God and how this sacred relationship influences and enriches your marital bond."
+                title="Basics of Healing and Deliverance"
+                description="Engage with foundational principles of spiritual healing and deliverance that Jesus achieved for us, applicable in everyday life."
                 icon={<BibleIcon />}
               />
               <FeatureCard2
-                rootClassName="rootClassName1"
-                title="Learn to Forgive"
-                description="Embrace the healing power of forgiveness, move beyond past challenges, and rejuvenate your marriage vows as you step forward into a renewed and hopeful future together."
+                title="Living Victoriously"
+                description="Equip yourself with practical steps to apply Jesus' victory over suffering and death to your life, leading to a triumphant existence."
                 icon={<ForgiveIcon />}
               />
             </div>
           </div>
         </div>
+
         <div className="home-speakers section-container">
           <div className="home-max-width1 max-content-container">
             <div className="home-heading-container">
@@ -124,12 +121,6 @@ const Home = (props) => {
                 firstName="Donn"
                 image_src="https://res.cloudinary.com/dxdpahm3o/image/upload/v1688553209/Donn_akvtnn.png"
               ></SpeakerCard>
-              <SpeakerCard
-                // role="HEAD OF DIGITAL @ HUBSPOT"
-                lastName="Aarti"
-                firstName="Bansy and"
-                image_src="https://res.cloudinary.com/dxdpahm3o/image/upload/v1702898013/Bansy_sgpdr4.png"
-              ></SpeakerCard>
             </div>
           </div>
         </div>
@@ -143,21 +134,31 @@ const Home = (props) => {
             <div className="home-container2">
               <span className="home-text10"> Bengaluru</span>
               <span className="home-text11">
-                <span>26-28 jan, 2024</span>
+                <span>10-11 Feb, 2024</span>
                 <br></br>
-                <span className="home-text14">9 am to 4 pm</span>
+                <span className="home-text14">9 am to 6 pm</span>
                 <br></br>
               </span>
               <div className="home-container3">
                 <span className="home-text16">— nava spoorthi kendra</span>
               </div>
               <div className="home-container4">
-                <span className="home-text17">RETREAT FACILITIES</span>
+                <span className="home-text17">GENERAL INFORMATION</span>
                 <span className="home-text18">
-                  During the three-day retreat, each couple will have a private
-                  room with an attached bathroom. All meals and tea are
-                  included. Daily Mass, Adoration, and Confession sessions are
-                  scheduled for spiritual growth.
+                  <ul className="home-text18">
+                    <li>
+                      The retreat starts sharp at 9 am on Saturday. The
+                      Eucharist will be celebrated on both days.
+                    </li>
+                    <li>
+                      Please bring Bible, notebook, pen and a bottle for
+                      drinking water.
+                    </li>
+                    <li>
+                      Prepare yourself by praying for the retreat and be open to
+                      the work the Lord wants to do in your life.
+                    </li>
+                  </ul>
                 </span>
                 <div className="home-btns-container1">
                   <a
@@ -182,7 +183,7 @@ const Home = (props) => {
             <div className="home-heading-container1">
               <h1 className="home-text19 Heading2">previous RETREATS</h1>
               <span className="home-text20">
-                Take a tour of our previous conferences
+                Take a tour of our previous retreats
               </span>
             </div>
           </div>
@@ -231,13 +232,30 @@ const Home = (props) => {
               </h1>
               <span className="home-text25">LIMITED SEATS</span>
               <span className="home-text26">
-                Act quickly to reserve your place at our retreat—seats are
-                limited! Click the button below and complete the Google Form to
-                ensure your participation. Don&apos;t miss this opportunity for
-                renewal and connection.
+                <ul className="home-registration-list">
+                  <li>
+                    Registration cost Rs: 500 (includes Lunch and Tea for both
+                    days).
+                  </li>
+                  <li>
+                    Registration cost + Single room, Single Night accommodation
+                    Rs:1000 (includes also Dinner on Saturday and Breakfast on
+                    Sunday).
+                  </li>
+                  <li>
+                    Registration cost + Single room, Two Nights accommodation
+                    Rs: 1500 (Includes also all meals from Friday 6 pm to Sunday
+                    6 pm).
+                  </li>
+                  <li>
+                    Registration cost + Dormitory Single Night accommodation Rs:
+                    800 (Includes also Dinner on Saturday and Breakfast on
+                    Sunday).
+                  </li>
+                </ul>
               </span>
               <a
-                href="https://forms.gle/pDCbPQu8wqGkUGpS9"
+                href="https://forms.gle/DbBmWd53csMos3kH7"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-learn-more1 button button-md button-outline"
@@ -247,8 +265,8 @@ const Home = (props) => {
             </div>
           </div>
           <img
-            alt="image"
-            src="https://res.cloudinary.com/dxdpahm3o/image/upload/v1702970258/nathan-dumlao-w5hhoYM_JsU-unsplash_duablm.jpg"
+            alt="free in christ"
+            src="https://res.cloudinary.com/dxdpahm3o/image/upload/v1706357309/break_chain_t6vtzd.jpg"
             className="home-image1"
           />
         </div>
@@ -261,7 +279,7 @@ const Home = (props) => {
               className="home-image2"
             />
             <span className="home-text27">
-              © 2023 go forth ministries, All Rights Reserved.
+              © 2024 go forth ministries, All Rights Reserved.
             </span>
           </footer>
         </div>

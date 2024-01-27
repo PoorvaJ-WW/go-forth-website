@@ -138,15 +138,15 @@
   display: grid;
   grid-row-gap: var(--dl-space-space-fourunits);
   grid-column-gap: 30px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr); /* Updated to 3 columns */
   @media (max-width: 991px) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Assumes 2 columns for smaller screens */
   }
   @media (max-width: 767px) {
-    grid-template-columns: 1fr 1fr;
-  }
-  @media (max-width: 479px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Single column for very small screens */
   }
 }
 
@@ -322,7 +322,7 @@
   display: grid;
   grid-row-gap: var(--dl-space-space-fourunits);
   grid-column-gap: 30px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .home-location {
   width: 100%;
