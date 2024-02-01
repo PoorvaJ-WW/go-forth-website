@@ -27,7 +27,9 @@ const Home = (props) => {
           <div className="home-max-width max-content-container">
             <div className="home-content-container">
               <h1 className="home-text">
-                <span className="home-text01 Heading1">free in Christ:</span>
+                <span className="home-text01 Heading1">
+                  free in Christ Retreat
+                </span>
                 <span className="Heading1">
                   <span
                     dangerouslySetInnerHTML={{
@@ -35,7 +37,6 @@ const Home = (props) => {
                     }}
                   />
                 </span>
-                <span className="home-text03">2-day retreat</span>
               </h1>
               <span className="home-text04">10 Feb - 11 Feb 2024</span>
               <div className="home-btns-container">
@@ -230,7 +231,6 @@ const Home = (props) => {
                 <br className="home-text23"></br>
                 <span className="home-text24">reserve your spot</span>
               </h1>
-              <span className="home-text25">LIMITED SEATS</span>
               <span className="home-text26">
                 <ul className="home-registration-list">
                   <li>
