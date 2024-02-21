@@ -17,7 +17,9 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Free in Christ Retreat: GoForth Ministries</title>
+        <title>
+          Healing of Family Relationships Retreat: GoForth Ministries
+        </title>
         <meta property="og:title" content="Couples' Retreat Page" />
       </Helmet>
       <Navigation></Navigation>
@@ -28,7 +30,7 @@ const Home = (props) => {
             <div className="home-content-container">
               <h1 className="home-text">
                 <span className="home-text01 Heading1">
-                  free in Christ Retreat
+                  Healing of Family Relationships Retreat{" "}
                 </span>
                 <span className="Heading1">
                   <span
@@ -38,7 +40,7 @@ const Home = (props) => {
                   />
                 </span>
               </h1>
-              <span className="home-text04">10 Feb - 11 Feb 2024</span>
+              <span className="home-text04">2 & 3 March, 2024</span>
               <div className="home-btns-container">
                 <a
                   href="#register"
@@ -67,28 +69,36 @@ const Home = (props) => {
 
         <div id="about" className="home-about section-container">
           <div className="home-features">
-            <h1 className="home-text05">
-              Why should I attend the Free in Christ retreat?
-            </h1>
+            <h1 className="home-text05">What is the retreat about? </h1>
             <div className="home-container1">
               <FeatureCard2
-                title="Healing Power of the Gospel"
-                description="Discover the restorative power of Jesus' teachings and how they can heal the brokenhearted and bind up their wounds."
+                title="Healing Parental Relationships"
+                description="Addressing the wounds in your relationships with parents, which can affect your connection with God and your life."
                 icon={<ChurchIcon />}
               />
               <FeatureCard2
-                title="Freedom from the Past"
-                description="Learn how to overcome past traumas and experiences that can hold you back, and embrace the freedom that Jesus offers."
+                title="Forgiving and Loving Siblings"
+                description="Learning to love and forgive our siblings, fostering stronger family bonds."
                 icon={<LoveIcon />}
               />
               <FeatureCard2
-                title="Basics of Healing and Deliverance"
-                description="Engage with foundational principles of spiritual healing and deliverance that Jesus achieved for us, applicable in everyday life."
+                title="Parental Love and Acceptance"
+                description="As parents, learning to love and accept your children, healing any rifts caused by them."
                 icon={<BibleIcon />}
               />
               <FeatureCard2
-                title="Living Victoriously"
-                description="Equip yourself with practical steps to apply Jesus' victory over suffering and death to your life, leading to a triumphant existence."
+                title="Spiritual Authority of Parents"
+                description="Exploring the spiritual authority that parents hold within the family structure."
+                icon={<ForgiveIcon />}
+              />
+              <FeatureCard2
+                title="Father-Son-Daughter & Mother-Daughter-Son Relationships"
+                description="Understanding the dynamics of Father-Son-Daughter and Mother-Daughter-Son relationships."
+                icon={<BibleIcon />}
+              />
+              <FeatureCard2
+                title="Prayer for Generational Healing"
+                description="Engaging in prayer for the healing of generational wounds and patterns."
                 icon={<ForgiveIcon />}
               />
             </div>
@@ -135,7 +145,7 @@ const Home = (props) => {
             <div className="home-container2">
               <span className="home-text10"> Bengaluru</span>
               <span className="home-text11">
-                <span>10-11 Feb, 2024</span>
+                <span>2-3 MAR, 2024</span>
                 <br></br>
                 <span className="home-text14">9 am to 6 pm</span>
                 <br></br>
@@ -255,7 +265,7 @@ const Home = (props) => {
                 </ul>
               </span>
               <a
-                href="https://forms.gle/DbBmWd53csMos3kH7"
+                href="https://forms.gle/BYeEr6TVEHDfZZbK8"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-learn-more1 button button-md button-outline"
