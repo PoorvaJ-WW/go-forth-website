@@ -10,6 +10,10 @@ import { ReactComponent as BibleIcon } from "../components/icons/bible-book-chur
 import { ReactComponent as ChurchIcon } from "../components/icons/church-christian-wedding-cross-catholic church.svg";
 import { ReactComponent as LoveIcon } from "../components/icons/gift-giftbox-love-valentine-heart box.svg";
 import { ReactComponent as ForgiveIcon } from "../components/icons/key-love-valentine-heart-wedding.svg";
+import { ReactComponent as JesusIcon } from "../components/icons/Jesus.svg";
+import { ReactComponent as ParentsIcon } from "../components/icons/Couple-Father-Mother-Parent.svg";
+import { ReactComponent as FatherDaughterIcon } from "../components/icons/Father-Daughter-Parent-Family.svg";
+import { ReactComponent as GenerationalIcon } from "../components/icons/Icon-Color-Expand-18.svg";
 
 import "./home.css";
 
@@ -17,9 +21,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>
-          Healing of Family Relationships Retreat: GoForth Ministries
-        </title>
+        <title>Healing Wounds from Family Relationships Retreat</title>
         <meta property="og:title" content="Couples' Retreat Page" />
       </Helmet>
       <Navigation></Navigation>
@@ -30,7 +32,7 @@ const Home = (props) => {
             <div className="home-content-container">
               <h1 className="home-text">
                 <span className="home-text01 Heading1">
-                  Healing of Family Relationships Retreat{" "}
+                  Healing Wounds from Family Relationships Retreat{" "}
                 </span>
                 <span className="Heading1">
                   <span
@@ -56,10 +58,13 @@ const Home = (props) => {
                 </a>
               </div>
             </div>
-            <div className="home-image-container">
+            <div
+              className="home-image-container"
+              style={{ marginLeft: "130px" }}
+            >
               <img
-                src="https://res.cloudinary.com/dxdpahm3o/image/upload/v1706357023/Free-in-christ_sacsnr.png"
-                alt="Couples' Retreat"
+                src="https://res.cloudinary.com/dxdpahm3o/image/upload/v1708666933/ParentrelationshipPIC_lqcr14.jpg"
+                alt="Family Retreat"
                 className="home-hero-image"
               />
             </div>
@@ -84,7 +89,7 @@ const Home = (props) => {
               <FeatureCard2
                 title="Parental Love and Acceptance"
                 description="As parents, learning to love and accept your children, healing any rifts caused by them."
-                icon={<BibleIcon />}
+                icon={<ParentsIcon />}
               />
               <FeatureCard2
                 title="Spiritual Authority of Parents"
@@ -94,12 +99,17 @@ const Home = (props) => {
               <FeatureCard2
                 title="Father-Son-Daughter & Mother-Daughter-Son Relationships"
                 description="Understanding the dynamics of Father-Son-Daughter and Mother-Daughter-Son relationships."
-                icon={<BibleIcon />}
+                icon={<FatherDaughterIcon />}
               />
               <FeatureCard2
                 title="Prayer for Generational Healing"
                 description="Engaging in prayer for the healing of generational wounds and patterns."
-                icon={<ForgiveIcon />}
+                icon={<GenerationalIcon />}
+              />
+              <FeatureCard2
+                title="Jesus the Family Healer"
+                description="Discovering how Jesus heals and restores families with His love."
+                icon={<JesusIcon />}
               />
             </div>
           </div>
