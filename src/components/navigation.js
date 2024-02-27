@@ -41,10 +41,10 @@ const Navigation = (props) => {
                 </svg>
               </div>
             </div>
-            {/* <NavigationLinks rootClassName="navigation-links-root-class-name18"></NavigationLinks>
+            <NavigationLinks rootClassName="navigation-links-root-class-name18"></NavigationLinks>
             <button className="navigation-register1 button-primary button button-md">
               {props.button1}
-            </button> */}
+            </button>
           </div>
           <div>
             <svg
@@ -72,15 +72,15 @@ const Navigation = (props) => {
   );
 };
 
-// Navigation.defaultProps = {
-//   button1: "register",
-//   image_src:
-//     "https://res.cloudinary.com/dxdpahm3o/image/upload/v1703143610/Positive_Logo_landscape_no_logo_but_text_lc4lxk.svg",
-//   button: "register",
-//   image_alt1: "image",
-//   image_src1: "/logo-white-1500h.png",
-//   image_alt: "logo",
-// };
+Navigation.defaultProps = {
+  button1: "register",
+  image_src:
+    "https://res.cloudinary.com/dxdpahm3o/image/upload/v1703143610/Positive_Logo_landscape_no_logo_but_text_lc4lxk.svg",
+  button: "register",
+  image_alt1: "image",
+  image_src1: "/logo-white-1500h.png",
+  image_alt: "logo",
+};
 
 Navigation.propTypes = {
   button1: PropTypes.string,
