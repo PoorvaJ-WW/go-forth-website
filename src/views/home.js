@@ -31,6 +31,21 @@ const Home = (props) => {
           <div className="home-max-width max-content-container">
             <div className="home-content-container">
               <h1 className="home-text">
+                <span className="home-text04">
+                  Our retreat on 2 and 3 March has been postponed. New dates
+                  will be announced soon. Registered participants will have
+                  their reservations automatically transferred. For updates,
+                  please keep an eye on our website or contact us.
+                </span>
+                {/* <span className="Heading1">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: " ",
+                    }}
+                  />
+                </span> */}
+              </h1>
+              {/* <h1 className="home-text">
                 <span className="home-text01 Heading1">
                   Healing Wounds from Family Relationships Retreat{" "}
                 </span>
@@ -42,8 +57,8 @@ const Home = (props) => {
                   />
                 </span>
               </h1>
-              <span className="home-text04">2 & 3 March, 2024</span>
-              <div className="home-btns-container">
+              <span className="home-text04">2 & 3 March, 2024</span> */}
+              {/* <div className="home-btns-container">
                 <a
                   href="#register"
                   className="home-primary button-primary button-lg button"
@@ -56,7 +71,7 @@ const Home = (props) => {
                 >
                   learn more
                 </a>
-              </div>
+              </div> */}
             </div>
             <div
               className="home-image-container"
@@ -115,7 +130,7 @@ const Home = (props) => {
           </div>
         </div>
 
-        <div className="home-speakers section-container">
+        {/* <div className="home-speakers section-container">
           <div className="home-max-width1 max-content-container">
             <div className="home-heading-container">
               <h1 className="home-text07 Heading2">
@@ -144,8 +159,8 @@ const Home = (props) => {
               ></SpeakerCard>
             </div>
           </div>
-        </div>
-        <div className="home-location">
+        </div> */}
+        {/* <div className="home-location">
           <img
             alt="image"
             src="https://res.cloudinary.com/dxdpahm3o/image/upload/v1702970554/Nava-Spoorthi-2-580x408_ubd2yn.jpg"
@@ -198,7 +213,7 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="home-previous-events section-container">
           <div className="home-max-width2 max-content-container">
             <div className="home-heading-container1">
@@ -243,7 +258,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-workshops">
+        {/* <div className="home-workshops">
           <div id="register" className="home-content-container2">
             <div className="home-container5">
               <h1 className="home-text21 Heading2">
@@ -289,7 +304,7 @@ const Home = (props) => {
             src="https://res.cloudinary.com/dxdpahm3o/image/upload/v1706357309/break_chain_t6vtzd.jpg"
             className="home-image1"
           />
-        </div>
+        </div> */}
 
         <div className="home-speakers1 section-container">
           <footer className="home-footer">

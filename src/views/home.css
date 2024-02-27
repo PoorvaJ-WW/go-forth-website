@@ -50,7 +50,7 @@
 }
 
 .home-text {
-  font-size: 64px;
+  font-size: 54px;
   font-style: normal;
   font-family: "IBM Plex Sans Condensed";
   font-weight: 700;
@@ -183,12 +183,12 @@
   }
 
   .home-text {
-    font-size: 32px; /* Adjust the font size for mobile */
+    font-size: 12px; /* Adjust the font size for mobile */
   }
 
   .home-text04 {
-    font-size: 18px; /* Adjust the font size for the subtext */
-    line-height: 1.6; /* Improve line-height for readability */
+    font-size: 12px; /* Adjust the font size for the subtext */
+    line-height: 1; /* Improve line-height for readability */
     margin-bottom: 24px; /* Adjust the bottom margin */
   }
 
@@ -207,7 +207,7 @@
 }
 
 .home-text {
-  font-size: 64px;
+  font-size: 18px;
   font-style: normal;
   font-family: "IBM Plex Sans Condensed";
   font-weight: 700;
@@ -407,6 +407,13 @@
 }
 .home-text18 {
   color: var(--dl-color-scheme-white);
+  font-size: 18px;
+  margin-bottom: var(--dl-space-space-twounits);
+  text-transform: none;
+}
+
+.home-text28 {
+  color: var(--dl-color-scheme-black);
   font-size: 18px;
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: none;
